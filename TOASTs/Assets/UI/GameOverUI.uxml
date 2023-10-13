@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-self: center; justify-content: center;">
+        <ui:VisualElement name="GameOver" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/Gameover.png?fileID=21300000&amp;guid=93008dff679d5cc44b60704b51800869&amp;type=3#Gameover&apos;); width: 100px; height: 55px; transition-duration: 1s; transition-timing-function: ease-in-out; display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

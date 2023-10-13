@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-self: center; justify-content: center;">
+        <ui:VisualElement name="Victory" style="flex-grow: 0; width: 200px; height: 44px; background-image: url(&apos;project://database/Assets/Sprites/UI/Victory.png?fileID=21300000&amp;guid=e5e54336836db834ca820910545932ef&amp;type=3#Victory&apos;); display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

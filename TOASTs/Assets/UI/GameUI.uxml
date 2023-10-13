@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="PlayerInfo" style="flex-grow: 1; position: absolute; width: 80px; height: 64px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/neodgm%20SDF.asset?fileID=11400000&amp;guid=b5f18b059b389374ca7fde345149e157&amp;type=2#neodgm SDF&apos;); margin-top: 5px; margin-left: 5px;">
+        <ui:VisualElement name="HpBar" style="flex-grow: 0; height: 12px; width: 100%;">
+            <ui:VisualElement name="HpBarBackground" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=1936678576&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#HpBarBackground&apos;); height: 12px; width: 100%;">
+                <ui:VisualElement name="HpContainer" style="flex-grow: 0; flex-shrink: 0; width: 100%; height: 100%;">
+                    <ui:VisualElement name="Hp" style="flex-grow: 0; width: 100%; height: 6px; background-image: url(&apos;project://database/Assets/Sprites/UI/Bar.png?fileID=-611608971&amp;guid=6e1f235b88434f0489b2f2f5ac096fb0&amp;type=3#HpBar&apos;); justify-content: flex-start; align-self: flex-start; flex-shrink: 0; align-items: center; margin-top: 3px; margin-bottom: 3px; margin-right: 0; margin-left: 0; padding-left: 3px; padding-right: 3px;" />
+                    <ui:VisualElement name="HpBarBackground" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-719984349&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#HpBar&apos;); height: 100%; width: 100%; position: absolute;" />
+                    <ui:VisualElement name="TextContainer" style="flex-grow: 0; position: absolute; width: 100%; height: 100%;">
+                        <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HpText" style="position: absolute; align-self: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font: url(&apos;project://database/Assets/Fonts/Maplestory%20Bold.ttf?fileID=12800000&amp;guid=d008dbec8ccc4f94ab450c2902e7373c&amp;type=3#Maplestory Bold&apos;); -unity-font-style: normal; font-size: 10px; -unity-text-align: middle-center; color: rgb(0, 0, 0); top: -1px; left: 29px;" />
+                        <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HpText" style="position: absolute; align-self: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font: url(&apos;project://database/Assets/Fonts/Maplestory%20Bold.ttf?fileID=12800000&amp;guid=d008dbec8ccc4f94ab450c2902e7373c&amp;type=3#Maplestory Bold&apos;); -unity-font-style: normal; font-size: 10px; -unity-text-align: middle-center; color: rgb(255, 255, 255); top: -2px; left: 28px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom" style="flex-grow: 1; flex-direction: column; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+            <ui:VisualElement name="State" style="flex-grow: 0; flex-direction: row; align-self: auto; align-items: center; justify-content: space-between; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px;">
+                <ui:VisualElement name="Atk" style="flex-grow: 0; flex-direction: row;">
+                    <ui:VisualElement name="Img" style="flex-grow: 0; width: 6px; height: 10px; background-image: url(&apos;project://database/Assets/Sprites/UI/STATE.png?fileID=-1121206690&amp;guid=2eea3330c7a451e419e97b4b5a7f72aa&amp;type=3#Sword&apos;);" />
+                    <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StateText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 7px; -unity-text-align: middle-left;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Atk" style="flex-grow: 0; flex-direction: row;">
+                    <ui:VisualElement name="Img" style="flex-grow: 0; width: 6.5px; height: 9px; background-image: url(&apos;project://database/Assets/Sprites/UI/STATE.png?fileID=-1033349055&amp;guid=2eea3330c7a451e419e97b4b5a7f72aa&amp;type=3#Shield&apos;);" />
+                    <ui:Label tabindex="-1" text="5" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StateText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 7px; -unity-text-align: middle-left;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Atk" style="flex-grow: 0; flex-direction: row;">
+                    <ui:VisualElement name="Img" style="flex-grow: 0; width: 7.5px; height: 8px; background-image: url(&apos;project://database/Assets/Sprites/UI/STATE.png?fileID=273514464&amp;guid=2eea3330c7a451e419e97b4b5a7f72aa&amp;type=3#Boots&apos;);" />
+                    <ui:Label tabindex="-1" text="3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StateText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 7px; -unity-text-align: middle-left;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Goods" style="flex-grow: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; justify-content: space-around; flex-direction: row; align-items: stretch; align-self: auto; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px;">
+                <ui:VisualElement name="Gold" style="flex-grow: 0; flex-direction: row; justify-content: space-around; align-self: center;">
+                    <ui:VisualElement name="GoldImage" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1660629676&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Coin&apos;); width: 8px; height: 8px; margin-left: 1px; margin-right: 2px; margin-top: 1px; margin-bottom: 1px;" />
+                    <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoldText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 7px; -unity-text-align: middle-center;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Wood" style="flex-grow: 0; flex-direction: row; flex-shrink: 0; justify-content: space-around; align-self: center;">
+                    <ui:VisualElement name="WheatImage" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Map/wheat.png?fileID=-1047523930&amp;guid=2f7fb1441f58f2e4881db67958c346db&amp;type=3#wheat_1&apos;); width: 7px; height: 12px; margin-top: 1px; margin-right: 2px; margin-bottom: 1px; margin-left: 1px;" />
+                    <ui:Label tabindex="-1" text="200" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WheatText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 7px; -unity-text-align: middle-center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

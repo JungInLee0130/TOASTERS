@@ -1,0 +1,47 @@
+.open-sheet {
+    flex-grow: 0;
+    height: 204px;
+    width: 125px;
+    position: absolute;
+    justify-content: flex-start;
+    align-self: auto;
+    right: 0;
+    align-items: auto;
+    -unity-text-align: upper-left;
+    top: 30px;
+    background-image: url('project://database/Assets/Sprites/UI/UI.png?fileID=-347188502&guid=b13b55047741a91478a1a0d2dbfd15f5&type=3#Frame');
+    flex-direction: column;
+    -unity-font-definition: url('project://database/Assets/Fonts/neodgm%20SDF.asset?fileID=11400000&guid=b5f18b059b389374ca7fde345149e157&type=2#neodgm SDF');
+    display: flex;
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.box-sheet {
+}
+
+.close-sheet {
+    translate: 90% 0;
+}
+
+.img-locker {
+    width: 18px;
+    height: 18px;
+    background-image: url('project://database/Assets/Sprites/UI/UI.png?fileID=1422548320&guid=b13b55047741a91478a1a0d2dbfd15f5&type=3#Locker');
+}
+
+.img-unlock01 {
+    background-image: url('project://database/Assets/Sprites/UI/Recipe.png?fileID=1633331491&guid=3af60382b797c4544996b54819eaeaa0&type=3#recipe01');
+}
+
+.img-unlock02 {
+    background-image: url('project://database/Assets/Sprites/UI/Recipe.png?fileID=-1005371800&guid=3af60382b797c4544996b54819eaeaa0&type=3#recipe02');
+}
+
+.img-unlock03 {
+    background-image: url('project://database/Assets/Sprites/UI/Recipe.png?fileID=-485126236&guid=3af60382b797c4544996b54819eaeaa0&type=3#recipe03');
+}
+
+.card-style {
+}

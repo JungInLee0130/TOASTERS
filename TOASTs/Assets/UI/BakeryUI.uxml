@@ -1,0 +1,172 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/BakeryUSS.uss?fileID=7433441132597879392&amp;guid=119f5e416a5c2ca4aa87df739cb58ef6&amp;type=3#BakeryUSS" />
+    <ui:VisualElement name="BakeryContainer" class="open-sheet close-sheet" style="transition-timing-function: ease-in-out-sine; transition-duration: 0.5s; -unity-font: url(&apos;project://database/Assets/Fonts/neodgm.ttf?fileID=12800000&amp;guid=74ce42657479d7c438eb660f9176ac38&amp;type=3#neodgm&apos;); -unity-font-definition: initial;">
+        <ui:VisualElement name="InnerContainer" style="flex-grow: 1; width: 100px; margin-top: 10px; margin-bottom: 20px; margin-left: 0;">
+            <ui:VisualElement name="Title" style="flex-grow: 0; width: 100%; height: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; justify-content: center; align-items: flex-start;">
+                <ui:Label tabindex="-1" text="베이커리" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="-unity-text-align: middle-left; color: rgb(255, 255, 255); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 2px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ProducerContainer" style="flex-grow: 0; height: 55px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; width: 100%;">
+                <ui:VisualElement name="Line" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=478208554&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#QueLine&apos;); width: 84px; height: 36px; position: absolute; top: 3px; left: 13px;" />
+                <ui:VisualElement name="ProducerBoxes" style="flex-grow: 1; justify-content: space-between;">
+                    <ui:VisualElement name="Upper" style="flex-grow: 0; flex-direction: row; height: 50%;">
+                        <ui:VisualElement name="Box1" class="box-sheet" style="flex-grow: 0;">
+                            <ui:VisualElement name="Image" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1250991864&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Que 1&apos;); width: 22px; height: 22px; align-self: auto; align-items: center; justify-content: center;">
+                                <ui:VisualElement name="BreadBaking" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-1460238770&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_9&apos;); width: 18px; height: 18px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ProducerBarContainer" style="flex-grow: 1; padding-left: 3px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px;">
+                            <ui:Label tabindex="-1" text="생산중.." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px;" />
+                            <ui:VisualElement name="ProducerBar" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-471575853&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#ProduceBarBackground&apos;); height: 5px;">
+                                <ui:VisualElement name="Bar" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/Bar.png?fileID=-2131838148&amp;guid=6e1f235b88434f0489b2f2f5ac096fb0&amp;type=3#ProducingBar&apos;); width: 0; position: relative; height: 5px; margin-right: 1px; margin-left: 1px;" />
+                                <ui:VisualElement name="Border" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1097483540&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#ProduceBar&apos;); position: absolute; height: 5px; width: 100%;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Lower" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                        <ui:VisualElement name="Box2" class="box-sheet" style="flex-grow: 0;">
+                            <ui:VisualElement name="Image" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1674414445&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Que 2&apos;); width: 22px; height: 22px; align-self: auto; align-items: center; justify-content: center;">
+                                <ui:VisualElement name="BreadBaking" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-1460238770&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_9&apos;); width: 18px; height: 18px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Box3" class="box-sheet" style="flex-grow: 0;">
+                            <ui:VisualElement name="Image" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1431142102&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Que 3&apos;); width: 22px; height: 22px; align-self: auto; align-items: center; justify-content: center;">
+                                <ui:VisualElement name="BreadBaking" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-1460238770&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_9&apos;); width: 18px; height: 18px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Box4" class="box-sheet" style="flex-grow: 0;">
+                            <ui:VisualElement name="Image" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1959465483&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Que 4&apos;); width: 22px; height: 22px; align-self: auto; align-items: center; justify-content: center;">
+                                <ui:VisualElement name="BreadBaking" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-1460238770&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_9&apos;); width: 18px; height: 18px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Box5" class="box-sheet" style="flex-grow: 0;">
+                            <ui:VisualElement name="Image" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-83464049&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Que 5&apos;); width: 22px; height: 22px; align-self: auto; align-items: center; justify-content: center;">
+                                <ui:VisualElement name="BreadBaking" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-1460238770&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_9&apos;); width: 18px; height: 18px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="BakingContainer" style="flex-grow: 1; width: 100%; justify-content: space-between; padding-top: 0; padding-right: 2px; padding-bottom: 5px; padding-left: 2px;">
+                <ui:VisualElement name="Level" style="flex-grow: 0; flex-direction: row; height: 30px; width: 100%; justify-content: space-around;">
+                    <ui:VisualElement name="LockOrRecipe" style="align-items: center; align-self: center; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+                        <ui:VisualElement name="Image_LOR" class="img-locker" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Baskets" style="flex-grow: 1; height: 100%; flex-direction: row;">
+                        <ui:VisualElement name="BasketContainer" style="flex-grow: 1; width: auto; height: 100%; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="Basket" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=1098994855&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Backet&apos;); height: 25px; width: 25px; justify-content: center; align-items: center;">
+                                <ui:VisualElement name="Bread" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=564026187&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_1&apos;); width: 16px; height: 16px; align-items: auto;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="CoinContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 27px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Gold" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1660629676&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Coin&apos;); width: 8px; height: 8px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoldText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="WheatContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 19px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Wheat" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/Map/wheat.png?fileID=-1047523930&amp;guid=2f7fb1441f58f2e4881db67958c346db&amp;type=3#wheat_1&apos;); width: 7px; height: 10px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WheatText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="BasketContainer" style="flex-grow: 1; width: auto; height: 100%; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="Basket" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=1098994855&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Backet&apos;); height: 25px; width: 25px; justify-content: center; align-items: center;">
+                                <ui:VisualElement name="Bread" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-714664051&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_2&apos;); width: 16px; height: 16px; align-items: auto;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="CoinContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 27px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Gold" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1660629676&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Coin&apos;); width: 8px; height: 8px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoldText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="WheatContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 19px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Wheat" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/Map/wheat.png?fileID=-1047523930&amp;guid=2f7fb1441f58f2e4881db67958c346db&amp;type=3#wheat_1&apos;); width: 7px; height: 10px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WheatText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Level" style="flex-grow: 0; flex-direction: row; height: 30px; width: 100%; justify-content: space-around;">
+                    <ui:VisualElement name="LockOrRecipe" style="align-items: center; align-self: center; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+                        <ui:VisualElement name="Image_LOR" class="img-locker" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Baskets" style="flex-grow: 1; height: 100%; flex-direction: row;">
+                        <ui:VisualElement name="BasketContainer" style="flex-grow: 1; width: auto; height: 100%; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="Basket" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=1098994855&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Backet&apos;); height: 25px; width: 25px; justify-content: center; align-items: center;">
+                                <ui:VisualElement name="Bread" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=564026187&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_1&apos;); width: 16px; height: 16px; align-items: auto;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="CoinContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 27px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Gold" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1660629676&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Coin&apos;); width: 8px; height: 8px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoldText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="WheatContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 19px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Wheat" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/Map/wheat.png?fileID=-1047523930&amp;guid=2f7fb1441f58f2e4881db67958c346db&amp;type=3#wheat_1&apos;); width: 7px; height: 10px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WheatText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="BasketContainer" style="flex-grow: 1; width: auto; height: 100%; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="Basket" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=1098994855&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Backet&apos;); height: 25px; width: 25px; justify-content: center; align-items: center;">
+                                <ui:VisualElement name="Bread" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-714664051&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_2&apos;); width: 16px; height: 16px; align-items: auto;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="CoinContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 27px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Gold" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1660629676&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Coin&apos;); width: 8px; height: 8px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoldText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="WheatContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 19px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Wheat" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/Map/wheat.png?fileID=-1047523930&amp;guid=2f7fb1441f58f2e4881db67958c346db&amp;type=3#wheat_1&apos;); width: 7px; height: 10px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WheatText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Level" style="flex-grow: 0; flex-direction: row; height: 30px; width: 100%; justify-content: space-around;">
+                    <ui:VisualElement name="LockOrRecipe" style="align-items: center; align-self: center; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+                        <ui:VisualElement name="Image_LOR" class="img-locker" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Baskets" style="flex-grow: 1; height: 100%; flex-direction: row;">
+                        <ui:VisualElement name="BasketContainer" style="flex-grow: 1; width: auto; height: 100%; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="Basket" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=1098994855&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Backet&apos;); height: 25px; width: 25px; justify-content: center; align-items: center;">
+                                <ui:VisualElement name="Bread" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=564026187&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_1&apos;); width: 16px; height: 16px; align-items: auto;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="CoinContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 27px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Gold" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1660629676&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Coin&apos;); width: 8px; height: 8px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoldText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="WheatContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 19px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Wheat" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/Map/wheat.png?fileID=-1047523930&amp;guid=2f7fb1441f58f2e4881db67958c346db&amp;type=3#wheat_1&apos;); width: 7px; height: 10px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WheatText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="BasketContainer" style="flex-grow: 1; width: auto; height: 100%; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="Basket" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=1098994855&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Backet&apos;); height: 25px; width: 25px; justify-content: center; align-items: center;">
+                                <ui:VisualElement name="Bread" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=-714664051&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_2&apos;); width: 16px; height: 16px; align-items: auto;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="CoinContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 27px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Gold" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1660629676&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Coin&apos;); width: 8px; height: 8px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoldText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="WheatContainer" style="flex-grow: 0; flex-direction: row; position: absolute; top: 19px; left: auto; -unity-text-align: middle-center; align-self: auto; justify-content: flex-start; align-items: stretch; height: 12px;">
+                                <ui:VisualElement name="Wheat" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/Map/wheat.png?fileID=-1047523930&amp;guid=2f7fb1441f58f2e4881db67958c346db&amp;type=3#wheat_1&apos;); width: 7px; height: 10px;" />
+                                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WheatText" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 10px; height: 10px; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Flag" style="background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-934420665&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Tag_Bakery&apos;); position: absolute; width: 35px; height: 24px; top: 30px; left: -25px; background-color: rgba(255, 255, 255, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Label tabindex="-1" text="클릭으로 &#10;빵집 열기!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FlagText" style="position: absolute; left: -33px; font-size: 6px; -unity-text-align: upper-center; top: 9px;" />
+        <ui:VisualElement name="Card" class="card-style" style="position: absolute; width: 90px; background-image: url(&apos;project://database/Assets/Sprites/UI/UI.png?fileID=-1318647018&amp;guid=b13b55047741a91478a1a0d2dbfd15f5&amp;type=3#Card&apos;); height: 130px; top: 66px; left: -38px; display: none; transition-property: display; transition-duration: 1s; transition-timing-function: ease-in-out;">
+            <ui:VisualElement name="Inner" class="card-inner-style" style="padding-top: 20%; padding-bottom: 5%; align-items: center; align-self: auto; justify-content: flex-start; height: auto; flex-grow: 1;">
+                <ui:VisualElement name="ImageInCard" class="card-inner-image-style" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/Item/bread-Sheet.png?fileID=254103408&amp;guid=9f530543c5e55854d85a6d8232d8637a&amp;type=3#bread-Sheet_14&apos;); align-items: stretch; width: 16px; height: 16px; flex-shrink: 0;" />
+                <ui:Label tabindex="-1" text="임시빵" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameInCard" class="card-inner-name-style" style="font-size: 8px;" />
+                <ui:Label tabindex="-1" text="개쩌는 빵입니다." parse-escape-sequences="true" display-tooltip-when-elided="true" name="InfoInCard" enable-rich-text="false" class="card-inner-explanation-style" style="padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; white-space: normal; -unity-text-align: upper-center; font-size: 8px; -unity-font: url(&apos;project://database/Assets/Fonts/neodgm.ttf?fileID=12800000&amp;guid=74ce42657479d7c438eb660f9176ac38&amp;type=3#neodgm&apos;); color: rgb(84, 84, 84); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="AlertContainer" style="flex-grow: 0; align-self: center; justify-content: center; width: 50%; height: 20%; align-items: center; position: absolute; top: 100px;">
+        <ui:Label tabindex="-1" text="빵집과 멀어서 열 수 없습니다." parse-escape-sequences="true" display-tooltip-when-elided="true" name="TooFar" style="position: absolute; font-size: 10px; display: none; -unity-font: url(&apos;project://database/Assets/Fonts/neodgm.ttf?fileID=12800000&amp;guid=74ce42657479d7c438eb660f9176ac38&amp;type=3#neodgm&apos;); -unity-font-definition: initial; width: 100%; height: 100%; -unity-text-align: middle-center;">
+            <ui:Label tabindex="-1" text="빵집과 멀어서 열 수 없습니다." parse-escape-sequences="true" display-tooltip-when-elided="true" name="TooFar2" style="position: absolute; font-size: 10px; display: flex; -unity-font: url(&apos;project://database/Assets/Fonts/neodgm.ttf?fileID=12800000&amp;guid=74ce42657479d7c438eb660f9176ac38&amp;type=3#neodgm&apos;); -unity-font-definition: initial; width: 100%; height: 100%; -unity-text-align: middle-center; color: rgb(255, 255, 255); top: -5px; left: -3px;" />
+        </ui:Label>
+        <ui:Label tabindex="-1" text="재화가 부족합니다!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MoreMoney" style="position: absolute; font-size: 10px; display: none; -unity-font: resource(&apos;Undead Survivor/Fonts/neodgm&apos;); -unity-font-definition: initial; width: 100%; height: 100%; -unity-text-align: middle-center;">
+            <ui:Label tabindex="-1" text="재화가 부족합니다!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MoreMoney" style="position: absolute; font-size: 10px; display: flex; -unity-font: resource(&apos;Undead Survivor/Fonts/neodgm&apos;); -unity-font-definition: initial; width: 100%; height: 100%; -unity-text-align: middle-center; color: rgb(255, 255, 255); top: -5px; left: -3px;" />
+        </ui:Label>
+        <ui:Label tabindex="-1" text="아직 생산할 수 없는 레벨의 빵입니다!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NotYet" style="position: absolute; font-size: 10px; display: none; -unity-font: resource(&apos;Undead Survivor/Fonts/neodgm&apos;); -unity-font-definition: initial; width: 100%; height: 100%; -unity-text-align: middle-center;">
+            <ui:Label tabindex="-1" text="아직 생산할 수 없는 레벨의 빵입니다!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NotYet" style="position: absolute; font-size: 10px; display: flex; -unity-font: resource(&apos;Undead Survivor/Fonts/neodgm&apos;); -unity-font-definition: initial; width: 100%; height: 100%; -unity-text-align: middle-center; color: rgb(255, 255, 255); top: -5px; left: -3px;" />
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Donggeon/Launcher.unity
+    guid: 7eebcfa1633388240b2ade505df7df10
+  - enabled: 0
+    path: Assets/Scenes/Donggeon/Lobby.unity
+    guid: a947b849dcdf12a4bb0ef1858f57160a
+  - enabled: 0
+    path: Assets/Scenes/Donggeon/Room.unity
+    guid: 3accc5b0be93d794db3d76d7d44246a2
+  - enabled: 0
+    path: Assets/Scenes/Donggeon/GameScene.unity
+    guid: 3fa466472a88625469fb4ce0c6ce364f
+  - enabled: 0
+    path: Assets/Scenes/SILVER/GameScene_SILVER.unity
+    guid: dd9a59d2cf6040848aaf95bfa3baaf97
+  - enabled: 0
+    path: Assets/Scenes/SILVER/Silver.unity
+    guid: 9d345e482748b1f449aaa2dc767100ce
+  - enabled: 0
+    path: Assets/Scenes/MidPT/Launcher.unity
+    guid: 21f4a18606c2fe84c81bffe3d38cdf48
+  - enabled: 0
+    path: Assets/Scenes/MidPT/Lobby.unity
+    guid: 6188e8bedda633d4d9d01500eeedd170
+  - enabled: 0
+    path: Assets/Scenes/MidPT/Room.unity
+    guid: 254027cbf2da9a84482d12a09499e7e5
+  - enabled: 0
+    path: Assets/Scenes/MidPT/Game.unity
+    guid: b40fb3bdfaa3c194a84008c7cb1624e6
+  - enabled: 0
+    path: Assets/Scenes/MINDY/Launcher.unity
+    guid: 1c97705c772fdd24c92c1441fa578ba4
+  - enabled: 0
+    path: Assets/Scenes/MINDY/Lobby.unity
+    guid: b025ccd3e88aa3648b75ef7c14a7ac95
+  - enabled: 0
+    path: Assets/Scenes/MINDY 1/Lobby.unity
+    guid: 3190e4391541f254fa24afe9824a991b
+  - enabled: 0
+    path: Assets/Scenes/MINDY 1/Room.unity
+    guid: cd9f12ef00f9c7045be1935f49cbe9fa
+  - enabled: 0
+    path: Assets/Scenes/MINDY 1/GameScene.unity
+    guid: 2762b3725877db343a75ba1d097645ea
+  - enabled: 0
+    path: Assets/Scenes/MINDY 1/Game.unity
+    guid: f50122298bdf97642b889c2db32332b8
+  - enabled: 0
+    path: Assets/Scenes/MINDY 2/Launcher.unity
+    guid: ad7a7f54fcb5d0440a5656cc501254a9
+  - enabled: 0
+    path: Assets/Scenes/MINDY 2/Lobby.unity
+    guid: fc16b29e5ed831a48a6177716d7cb44a
+  - enabled: 0
+    path: Assets/Scenes/MINDY 2/Room.unity
+    guid: 26f241407b617fe4ea9c43ff3915aa4a
+  - enabled: 1
+    path: Assets/Scenes/Launcher.unity
+    guid: ccf3c3fface0e2e41b7daf8afdd29872
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: e094e10bc3927c14e8c6636afde6ac36
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: 416e3bb838b5d0e46b58292838687513
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: e1a721d1c84fa7943821df2764325290
+  m_configObjects: {}

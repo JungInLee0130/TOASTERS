@@ -1,0 +1,2274 @@
+fileFormatVersion: 2
+guid: 40f5139689daa5f4db86ad3492df543c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossSpell0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21eecd00fc407a44b8af2fc523d95d4
+      internalID: -692632766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937a913eaa820cd499a79998a986ac60
+      internalID: 183584840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272b3d0829b5f684b8db4d120eb36720
+      internalID: 506370871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbf94d999c9b4242a50d7eca10e4cb2
+      internalID: -318776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea38ab13be425443a233ed5c846c2b0
+      internalID: 2110467808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cde4b4e4ab8fe49bdc8f155d74b63c
+      internalID: 2134754270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991b5c0e585c8d45a57f8ad619b8e92
+      internalID: -513750070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35f97c3e83625443ba53c5082eff973
+      internalID: 2143498331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell8
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0402b0c4a39211b408c6e0dc13ff27f4
+      internalID: 1075532859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell9
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992370e1a2dd57347b9059ae36878205
+      internalID: 984905959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell10
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9b04087aad3574bb821d70ccec6404
+      internalID: 161282182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSpell11
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 645
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80d2849b09abaf4ca9ac2150d85e5e7
+      internalID: 1556625365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891f2e61b553fe3418c70b01fde372e0
+      internalID: 971804177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d584e520b93244a8440bc3487848c4
+      internalID: -566864640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef2ab97048953d40b33b743a0ff1c61
+      internalID: -2130364920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f288eb4252abb841921ff170b5c1a1b
+      internalID: 1939571449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23608fc3557d944bbc4a0e6e1062ede
+      internalID: -1214360117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31682531bbac07d4b9667df561619171
+      internalID: -932748915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab311b4eec5f6aa469eb92dde7c7455c
+      internalID: 1032819500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecbe57feed81404781b501fd4f70828
+      internalID: -35817838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle8
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64278571bfe5e7148a225f487ec2042f
+      internalID: -79687838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle9
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4065eefb50c942a4f817435bc71199ac
+      internalID: 514263990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle10
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd86277f2596aa04980f877ce3b8c367
+      internalID: 1869362320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossIdle11
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 1032
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b76f102110fb245a793add13264a01
+      internalID: -1222165634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2992fe7dfc43a4285c55b2bd31c536
+      internalID: 586088383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d3b2237baac0e489eb392ab5257e7b
+      internalID: 557537741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ddb1dcee29d5546ab70d250db7e9d3
+      internalID: -1833351954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912f9bad658f9ef4e9a565e97bca31a2
+      internalID: -392637598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b568fc5db80325347a36607dc4880b4c
+      internalID: 1736280331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4b6822686730242ae0dcf2c8e4bd38
+      internalID: 1576427737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83735cdd6f6e9064fbd1c6388a38cffb
+      internalID: -395059203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabb85cdbc7d9a34884ed047fe5ff0c5
+      internalID: -1043624699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove8
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e1906306030b4aad393d754b6a1c9
+      internalID: 2053825460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove9
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed472ac07858d4d4ab0ba75314bf444d
+      internalID: 1709007946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove10
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f150b73d99442a4a9ef778b40dd0281
+      internalID: 348541113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossMove11
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 903
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f4bc574d01b7241860b1676ffd76f4
+      internalID: -1063523518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f7a2469d153b947a3c4695a4ccd0f8
+      internalID: -1287657815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e733f0befb8ee324d8da259f83817741
+      internalID: -1018720432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4162b400657c7146a8ecf93bb8e0577
+      internalID: 878467862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e75473dc84fe14aa16ed78b3e1fa85
+      internalID: 1637414527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f02e10763d8fa49a8d0321ad2130be
+      internalID: 1204311167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d4fab59e840604c9d9261577e76a14
+      internalID: -1722568583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e97c38e9e3fe1449bec008fe3d1d7f
+      internalID: 438117004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdac894bc19005c43a8a279e789aac4c
+      internalID: -1707313613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon8
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ed8854a1a479040bced59c36b3df0b
+      internalID: -1013229643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon9
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d23293e1b46d64aab20d794264d006
+      internalID: 1084961184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon10
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c303f108fe49864fab2684716d78d3e
+      internalID: -1867506820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSummon11
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 774
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b310d853f53bc454fa40963f2c277862
+      internalID: 556476801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782ceea4eebce18448afe409df83836e
+      internalID: 1153127628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bf07d0eebe5c0449b9020350d3a121
+      internalID: -1790635300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8420098d839ea4aadde744581d87f7
+      internalID: 2081854927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0753b620f1e79746beab402597910c9
+      internalID: -1966684713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799723c4aae68904a872df95962c191a
+      internalID: -1388775118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6cef5f979822e418992564d7359f3a
+      internalID: -1389282011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge6
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8714465455f5e7446810f18093843f52
+      internalID: -886161254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05002ccae1916e42abe1eb736a4f988
+      internalID: 1487331713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge8
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c1412d6866ef543ab5ff9be50cb70f
+      internalID: -2026141887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge9
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c86569216b4467409868a0a7c15bd31
+      internalID: -894645375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge10
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69db5f2de2b5cb4b81596e6d7c7886e
+      internalID: 651341604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharge11
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 516
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea9f1c2cb9e9204b82440f55c1466b6
+      internalID: -1700072222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharging0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adb5ed36ed815d4b8c80e053c475942
+      internalID: 1810014788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharging1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faf1205cfee0a44eaf8f2c074814507
+      internalID: 1928175782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharging2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25a452879a069d49a39832727c32786
+      internalID: -676988081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossCharging3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d7f01f77d014e4da3d9e7c1b0f17f9
+      internalID: -245279122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd0
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdda19db4c22ba4487c6582dfcb95e5
+      internalID: -1169836464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd1
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3947392ea3ba01b4ba8c78824981c6bd
+      internalID: 1243855822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd2
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff45b2e4e13520d4c8af4cc49e036a84
+      internalID: -1044594264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd3
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065932561d54c7a45bea46f5de4bda7a
+      internalID: -1437039547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd4
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d5870bbb38b646835649b01c4a21f
+      internalID: -227175054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd5
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0033d852fca52499917aefb3738869
+      internalID: 1596992427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd6
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342131a968935c14991deb91d1c59266
+      internalID: -657661575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd7
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 387
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d47c18bdbe9e094d987194fb5030889
+      internalID: 1426447194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossChargeEnd8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a82f9c3662a7904c80178b7dc8337e0
+      internalID: 230809887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkillEnd0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2011f8d3d9b5ab4e8715a46cf40a311
+      internalID: -277353190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkillEnd1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d74823d7ff13c4083f66e4805dde8a
+      internalID: -669082113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkillEnd2
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e79b0985fce5644a2c9e86307f2996
+      internalID: -382044368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkillEnd3
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57346a767e1703941919c6502ed86272
+      internalID: -83625311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkillEnd4
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80dfb789bb6f5c4087cd941a328dae4
+      internalID: -118236963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkillEnd5
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e185d02ac161146a49f78265d4107c
+      internalID: -590137996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack0
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d912cdabffa67c6428dc0ff16aabb4b8
+      internalID: -1277256838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack1
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43464e3b19a0bc428bee1635abb79ad
+      internalID: 512431531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack2
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b692ea9668255c4fafe413ec46369a1
+      internalID: -2118560260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack3
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29030449708f58b4a9e2b0b1c7edc9d1
+      internalID: -741188981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack4
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 258
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb704541e84d6b47baecb66328c6307
+      internalID: 199676182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5041f9de862a23f49906396080ef8e89
+      internalID: -2077530604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd080efe6fc8a54a932a2c8923c6dd0
+      internalID: 2091287488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack7
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb167fa27e813d24bb1a3431c27c14e7
+      internalID: -1937309173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack8
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2b4e180fdf3f84aa1f78cc5b5a95cc
+      internalID: -590775956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack9
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681f9302640b50947bdae5b3ff004408
+      internalID: 1615850156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack10
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da67757320b1374479523e537222743e
+      internalID: 553095391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack11
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f41469bc94d2924f9a99910eea26b8e
+      internalID: 1607089871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack12
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14115dfbb037dc498b84218e6f5970e
+      internalID: -1670358761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack13
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eab9bb8d8d99743be9689244d878cd
+      internalID: -1595616797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack14
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400f02e91e0e4484eaa7907ca83de57e
+      internalID: -1130731783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack15
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e6ced711c5b2148a43d16e3bda95c2
+      internalID: -952711219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack16
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 129
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5feb29b29b2665488eceffd0592d8d6
+      internalID: -1378599752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossAttack17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778d2f126151c1d4a8cdda42ef0a2a94
+      internalID: 1286291497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BossAttack0: -1277256838
+      BossAttack1: 512431531
+      BossAttack10: 553095391
+      BossAttack11: 1607089871
+      BossAttack12: -1670358761
+      BossAttack13: -1595616797
+      BossAttack14: -1130731783
+      BossAttack15: -952711219
+      BossAttack16: -1378599752
+      BossAttack17: 1286291497
+      BossAttack2: -2118560260
+      BossAttack3: -741188981
+      BossAttack4: 199676182
+      BossAttack5: -2077530604
+      BossAttack6: 2091287488
+      BossAttack7: -1937309173
+      BossAttack8: -590775956
+      BossAttack9: 1615850156
+      BossCharge0: 1153127628
+      BossCharge1: -1790635300
+      BossCharge10: 651341604
+      BossCharge11: -1700072222
+      BossCharge2: 2081854927
+      BossCharge3: -1966684713
+      BossCharge4: -1388775118
+      BossCharge5: -1389282011
+      BossCharge6: -886161254
+      BossCharge7: 1487331713
+      BossCharge8: -2026141887
+      BossCharge9: -894645375
+      BossChargeEnd0: -1169836464
+      BossChargeEnd1: 1243855822
+      BossChargeEnd2: -1044594264
+      BossChargeEnd3: -1437039547
+      BossChargeEnd4: -227175054
+      BossChargeEnd5: 1596992427
+      BossChargeEnd6: -657661575
+      BossChargeEnd7: 1426447194
+      BossChargeEnd8: 230809887
+      BossCharging0: 1810014788
+      BossCharging1: 1928175782
+      BossCharging2: -676988081
+      BossCharging3: -245279122
+      BossIdle0: 971804177
+      BossIdle1: -566864640
+      BossIdle10: 1869362320
+      BossIdle11: -1222165634
+      BossIdle2: -2130364920
+      BossIdle3: 1939571449
+      BossIdle4: -1214360117
+      BossIdle5: -932748915
+      BossIdle6: 1032819500
+      BossIdle7: -35817838
+      BossIdle8: -79687838
+      BossIdle9: 514263990
+      BossMove0: 586088383
+      BossMove1: 557537741
+      BossMove10: 348541113
+      BossMove11: -1063523518
+      BossMove2: -1833351954
+      BossMove3: -392637598
+      BossMove4: 1736280331
+      BossMove5: 1576427737
+      BossMove6: -395059203
+      BossMove7: -1043624699
+      BossMove8: 2053825460
+      BossMove9: 1709007946
+      BossSkillEnd0: -277353190
+      BossSkillEnd1: -669082113
+      BossSkillEnd2: -382044368
+      BossSkillEnd3: -83625311
+      BossSkillEnd4: -118236963
+      BossSkillEnd5: -590137996
+      BossSpell0: -692632766
+      BossSpell1: 183584840
+      BossSpell10: 161282182
+      BossSpell11: 1556625365
+      BossSpell2: 506370871
+      BossSpell3: -318776
+      BossSpell4: 2110467808
+      BossSpell5: 2134754270
+      BossSpell6: -513750070
+      BossSpell7: 2143498331
+      BossSpell8: 1075532859
+      BossSpell9: 984905959
+      BossSummon0: -1287657815
+      BossSummon1: -1018720432
+      BossSummon10: -1867506820
+      BossSummon11: 556476801
+      BossSummon2: 878467862
+      BossSummon3: 1637414527
+      BossSummon4: 1204311167
+      BossSummon5: -1722568583
+      BossSummon6: 438117004
+      BossSummon7: -1707313613
+      BossSummon8: -1013229643
+      BossSummon9: 1084961184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
